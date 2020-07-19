@@ -1,2 +1,3 @@
 # py-celery
-# from python sending  emails with help of celery
+
+From python sending emails with celery

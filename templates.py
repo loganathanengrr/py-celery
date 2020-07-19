@@ -12,9 +12,7 @@ class Template:
 		self.context = context
 
 	def get_template(self):
-		print(self.template_name)
 		template_path = os.path.join(TEMPLATE_DIR, self.template_name)
-		print(template_path)
 		if not os.path.exists(template_path):
 			raise Exception("The path does not exists")
 		template_str = ""
